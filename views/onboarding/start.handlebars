@@ -1,0 +1,14 @@
+<section class="flow-shell container">
+    <div class="flow-intro"><p class="eyebrow">ETAPA 01 / ONBOARDING</p><h1>Vamos preparar sua conta.</h1><p>Precisamos de alguns dados para criar o espaço da sua conta de pagamentos.</p></div>
+    <form class="form-panel" action="/onboarding" method="post">
+        <div class="form-panel-head"><span>Dados do titular</span><span>01 / 01</span></div>
+        <div class="row g-4">
+            <div class="col-md-7"><label for="name">Nome completo</label><input id="name" name="name" type="text" placeholder="Como aparece no documento" required></div>
+            <div class="col-md-5"><label for="birthDate">Data de nascimento</label><input id="birthDate" name="birthDate" type="date" required></div>
+            <div class="col-md-7"><label for="email">E-mail</label><input id="email" name="email" type="email" placeholder="voce@exemplo.com" required></div>
+            <div class="col-md-5"><label for="document">CPF / documento</label><input id="document" name="document" type="text" placeholder="Somente para demonstração" required></div>
+        </div>
+        <label class="check-row"><input type="checkbox" name="acceptedTerms" value="yes" required><span>Li e aceito os termos de uso da experiência demonstrativa.</span></label>
+        <div class="form-actions"><a class="text-link" href="/">Voltar</a><button class="btn btn-primary" type="submit">Criar minha conta <span>↗</span></button></div>
+    </form>
+</section>
