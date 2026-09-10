@@ -6,7 +6,9 @@ const { engine } = require('express-handlebars')
 
 const app = express()
 const PORT = process.env.PORT || 8091
-const API_BASE_URL = (process.env.API_BASE_URL || 'http://localhost:8000').replace(/\/$/, '')
+const API_BASE_URL = (
+    process.env.API_BASE_URL || 'https://case-enterprise-architecture.onrender.com'
+).replace(/\/$/, '')
 
 app.engine('handlebars', engine({
     helpers: {

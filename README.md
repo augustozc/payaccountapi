@@ -47,6 +47,10 @@ Se a API estiver em outro endereço, configure `API_BASE_URL`:
 API_BASE_URL=http://localhost:8000 PORT=8091 npm start
 ```
 
+No Render, configure a variável de ambiente `API_BASE_URL` do serviço PayAccount
+com `https://case-enterprise-architecture.onrender.com`. Use a URL base da API,
+sem adicionar `/docs`.
+
 Para desenvolvimento com reinício automático:
 
 ```bash
